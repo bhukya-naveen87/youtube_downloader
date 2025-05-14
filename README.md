@@ -23,6 +23,11 @@
     - Step 4: Verify ffmpeg is installed
       - Restart your terminal and run:
         - ```ffmpeg -version```
-- In downloader.py, at bottom of the file, paste the youtube url which you want to download.
-- Run ```py downloader.py```
-- It downloads the video into **downloads** folder.
+- #### Download single video:
+  - In downloader.py, at bottom of the file, paste the youtube url which you want to download.
+  - Run ```py downloader.py```
+  - It downloads the video into **downloads** folder.
+- #### Download Entire Playlist videos:
+  - In playlist_downloader.py, at bottom of the file, paste the youtube playlist url which you want to download.
+  - Run ```py playlist_downloader.py```
+  - It downloads the video into **playlistdownloaders** folder.
